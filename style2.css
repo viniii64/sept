@@ -1,0 +1,21 @@
+@font-face {
+    font-family: lexend;
+    src: url(lexend.ttf);
+  }
+
+
+.flor {
+  width: 550px;   /* ancho de la imagen */
+  height: 550px;  /* alto de la imagen */
+  display: block; /* hace que se pueda centrar fácilmente */
+  margin: 20px auto; /* la centra horizontalmente */
+}
+
+.titulo {
+    color: rgb(222, 191, 15);
+    font-family: lexend;
+    
+    /* O la altura deseada para el contenedor */
+    font-size: 60px;
+    text-align: CENTER;
+}

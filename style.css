@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(237, 237, 237);
+}
+
+.btn {
+    width: 200px;
+    height: 90px;
+    background-color: rgb(222, 191, 15);
+    color: white;
+    padding: 0 24px;           /* quitamos el padding vertical */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 32px;
+    font-family: lexend;
+                 /* hacemos el botón flex */
+
+
+}
+
+.btn:hover {
+        background-color: rgb(188, 162, 10);
+}
+
+@font-face {
+    font-family: lexend;
+    src: url(lexend.ttf);
+  }
+
+.box {
+        display: flex;
+      justify-content: center; /* Centra horizontalmente */
+      align-items: center;     /* Centra verticalmente */
+      height: 200px; /* O la altura deseada para el contenedor */
+  
+}
+
+    audio {
+      display: none; /* Oculta el reproductor */
+    }
+
+.titulo {
+    color: rgb(222, 191, 15);
+    font-family: lexend;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 200px; /* O la altura deseada para el contenedor */
+    font-size: 150px;
+    text-align: left;
+}
+
+.flor {
+  width: 100px;   /* ancho de la imagen */
+  height: 100px;  /* alto de la imagen */
+  display: block; /* hace que se pueda centrar fácilmente */
+  margin: 20px auto; /* la centra horizontalmente */
+}
